@@ -15,7 +15,7 @@ def CalculatePiV1():
     print("圆周率值是: {}".format(pi))
 
 def MonteCarloCalculate():
-    DARTS = 3000**2
+    DARTS = 2000**2
     hits = 0.0
     start = perf_counter()
     for i in range(1, DARTS+1):
